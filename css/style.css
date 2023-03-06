@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #1ba1ad;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+.caixa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  text-align: center;
+  position: absolute;
+  justify-content: center;
+}
+.card .telaazul {
+  width: 100%;
+  border-radius: 15px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.card .profile {
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 40.81%;
+  right: 50.81%;
+  top: 25.16%;
+  bottom: 46.63%;
+  border: 1px solid white;
+}
+h2 {
+  font-size: 16px;
+  color: #1f3251;
+  padding-top: 20px;
+}
+h2 span {
+  display: inline-block;
+}
+
+p {
+  font-size: 15px;
+  color: #7b879d;
+}
+ul {
+  border-top: 1px solid #f2f2f2;
+  font-size: 13px;
+  list-style-type: none;
+  list-style-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0px 0px 5px;
+  margin-bottom: 20px;
+}
+ul li {
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenlycente;
+  color: #272e4e;
+  margin-top: 15px;
+}
+span {
+  color: #969696;
+  display: block;
+  margin-top: 20px;
+}
